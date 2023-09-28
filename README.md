@@ -1,42 +1,43 @@
-Ð£Ô°¹ºÎïÏµÍ³
+æ ¡å›­è´­ç‰©ç³»ç»Ÿ
 ---------------------------
-ÏîÄ¿¼ò½é
+é¡¹ç›®ç®€ä»‹
    
-    Ð£Ô°¹ºÎïÏµÍ³ÊÇÒ»¸öÓÃJava¿ª·¢µÄÐ£Ô°¹ºÎïÆ½Ì¨£¬ËüÔÊÐíÔÚ¹ÜÀíÔ±ºÍÓÃ»§Á½ÖÖÄ£Ê½ÏÂµÇÂ¼ÏµÍ³¡£¸ÃÏµÍ³Ìá¹©ÁËÓÃ»§/¹ÜÀíÔ±×¢²á¡¢ÓÃ»§¹ÜÀí¡¢ÃÜÂë¹ÜÀí¡¢ÉÌÆ·ä¯ÀÀ¡¢ÏÂµ¥¡¢¸¶¿îºÍ¶©µ¥¹ÜÀíµÈ¹¦ÄÜ¡£
+    æ ¡å›­è´­ç‰©ç³»ç»Ÿæ˜¯ä¸€ä¸ªç”¨Javaå¼€å‘çš„æ ¡å›­è´­ç‰©å¹³å°ï¼Œå®ƒå…è®¸åœ¨ç®¡ç†å‘˜å’Œç”¨æˆ·ä¸¤ç§æ¨¡å¼ä¸‹ç™»å½•ç³»ç»Ÿã€‚è¯¥ç³»ç»Ÿæä¾›äº†ç”¨æˆ·/ç®¡ç†å‘˜æ³¨å†Œã€ç”¨æˆ·ç®¡ç†ã€å¯†ç ç®¡ç†ã€å•†å“æµè§ˆã€ä¸‹å•ã€ä»˜æ¬¾å’Œè®¢å•ç®¡ç†ç­‰åŠŸèƒ½ã€‚
 
-¼¼ÊõÕ»
+æŠ€æœ¯æ ˆ
 
-     MySQLÊý¾Ý¿â
-     HTML/CSS/jsp£¨ÓÃÓÚÇ°¶Ë½çÃæ£©
-     Maven¹¹½¨¹¤¾ß
+     MySQLæ•°æ®åº“
+     HTML/CSS/jspï¼ˆç”¨äºŽå‰ç«¯ç•Œé¢ï¼‰
+     Mavenæž„å»ºå·¥å…·
      servlet
 
-»·¾³ÒªÇó
+çŽ¯å¢ƒè¦æ±‚
 
      jdk 1.8
-     MySQLÊý¾Ý¿â
+     MySQLæ•°æ®åº“
 
-°²×°ºÍÔËÐÐ
+å®‰è£…å’Œè¿è¡Œ
 
-   ¿ËÂ¡ÏîÄ¿µ½±¾µØ¼ÆËã»ú£º
+   å…‹éš†é¡¹ç›®åˆ°æœ¬åœ°è®¡ç®—æœºï¼š
 
           git clone https://github.com/yourusername/your-project.git
 
-   ½øÈëÏîÄ¿Ä¿Â¼£º
+   è¿›å…¥é¡¹ç›®ç›®å½•ï¼š
 
          cd your-project
 
-   ÅäÖÃÊý¾Ý¿âÁ¬½ÓÐÅÏ¢£º
+   é…ç½®æ•°æ®åº“è¿žæŽ¥ä¿¡æ¯ï¼š
 
-         ´ò¿ª data.sql ÎÄ¼þ£¬½«Êý¾Ý¿âÁ¬½ÓÐÅÏ¢ÅäÖÃÎªÄúµÄÊý¾Ý¿âÉèÖÃ¡£
+         æ‰“å¼€ data.sql æ–‡ä»¶ï¼Œå°†æ•°æ®åº“è¿žæŽ¥ä¿¡æ¯é…ç½®ä¸ºæ‚¨çš„æ•°æ®åº“è®¾ç½®ã€‚
 
-   ¹¹½¨ºÍÔËÐÐÏîÄ¿£º
+   æž„å»ºå’Œè¿è¡Œé¡¹ç›®ï¼š
 
-         Ê¹ÓÃIIntelliJ IDEA ´ò¿ªÏîÄ¿£¬ÅäÖÃÔËÐÐ»·¾³Tomcat±¾µØ»·¾³¡£
-         µã»÷¡°+¡±Ìí¼ÓÐÂÅäÖÃ£¬ÏÂÔØapache-tomcat-8.5.91ÎÄ¼þ£¬²¢Ìí¼Ó..\lib\jsp-api.jarºÍ..\lib\servlet-api.jarÒÀÀµ¡£
-         ÐÞ¸ÄHTTP¶Ë¿Ú8086£¬µã»÷¡°ÐÞ¸´¡±Ñ¡ÔñÒª²¿ÊðµÄÎÄ¼þ¡°store.war",Ó¦ÓÃ³ÌÐòÉÏÏÂÎÄÌîÐ´"/"¡£
+         ä½¿ç”¨IIntelliJ IDEA æ‰“å¼€é¡¹ç›®ï¼Œé…ç½®è¿è¡ŒçŽ¯å¢ƒTomcatæœ¬åœ°çŽ¯å¢ƒã€‚
+         ç‚¹å‡»â€œ+â€æ·»åŠ æ–°é…ç½®ï¼Œä¸‹è½½apache-tomcat-8.5.91æ–‡ä»¶ï¼Œå¹¶æ·»åŠ ..\lib\jsp-api.jarå’Œ..\lib\servlet-api.jarä¾èµ–ã€‚
+         ä¿®æ”¹HTTPç«¯å£8086ï¼Œç‚¹å‡»â€œä¿®å¤â€é€‰æ‹©è¦éƒ¨ç½²çš„æ–‡ä»¶â€œstore.war",åº”ç”¨ç¨‹åºä¸Šä¸‹æ–‡å¡«å†™"/"ã€‚
+         ä¸‹è½½goodsFileæ–‡ä»¶æ”¾ç½®åœ¨D://è·¯å¾„ä¸‹ã€‚
 
-   ·ÃÎÊÓ¦ÓÃ³ÌÐò£º
+   è®¿é—®åº”ç”¨ç¨‹åºï¼š
 
-         ÔÚä¯ÀÀÆ÷ÖÐ·ÃÎÊ http://localhost:8086/main.jsp£¬ÄÜ¿´µ½¸ÃÏµÍ³µÄÒ³Ãæ¡£
+         åœ¨æµè§ˆå™¨ä¸­è®¿é—® http://localhost:8086/main.jspï¼Œèƒ½çœ‹åˆ°è¯¥ç³»ç»Ÿçš„é¡µé¢ã€‚
 
